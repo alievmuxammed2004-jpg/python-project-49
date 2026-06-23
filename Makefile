@@ -19,10 +19,5 @@ package-install:
 lint:
 	uv run ruff check brain_games
 
-.PHONY: install brain-even
-install:
-	uv sync
 
-brain-even:
-	uv run brain-even
 

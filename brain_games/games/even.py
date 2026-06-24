@@ -12,11 +12,8 @@ def play_game():
     print(f"Hello, {name}!")
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
-    correct_streak = 0
-    target_streak = 3
 
-
-    while True:
+    for _ in range(3):
         # Генерируем случайное число (например, от 1 до 100)
         number = random.randint(1, 100)
         print(f"Question: {number}")

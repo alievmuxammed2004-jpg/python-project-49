@@ -31,9 +31,3 @@ lint.select = ["E", "F", "I", "B"]
 lint.ignore = []
 line-length = 88
 target-version = "py38"
-
-
-
-
-
-

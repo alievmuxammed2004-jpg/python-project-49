@@ -1,5 +1,5 @@
 import prompt
-from conts import AMOUNT_OF_ROUNDS
+from consts import AMOUNT_OF_ROUNDS
 
 
 def run_game(get_question_and_answer, instruction):

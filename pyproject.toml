@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "prompt>=0.4.1",
+    "ruff>=0.15.18",
 ]
 
 [build-system]
@@ -22,9 +23,12 @@ dev = [
 
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
-brain-gcd = "brain_games.scripts.brain_calc:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+
 
 [tool.ruff]
 lint.select = ["E", "F", "I", "B"]

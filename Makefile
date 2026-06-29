@@ -19,5 +19,11 @@ package-install:
 lint:
 	uv run ruff check brain_games
 
+.PHONY: install brain-gcd
 
+install:
+	uv sync
+
+brain-gcd:
+	uv run brain-gcd
 

@@ -1,5 +1,7 @@
 import random
 
+from brain_games.engine import run_game
+
 
 def is_even(number: int) -> bool:
     """Проверяет, является ли число чётным."""
@@ -30,6 +32,8 @@ def play_game():
             print(f"Let's try again, {name}!")
             break
 
+def run_even_game():
+    run_game()
 
 if __name__ == "__main__":
     play_game()

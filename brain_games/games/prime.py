@@ -1,6 +1,7 @@
 import random
-from brain_games.engine import run_game
+
 from brain_games.consts import PRIME_INSTRUCTION
+from brain_games.engine import run_game
 
 
 def is_prime(n: int):

@@ -1,4 +1,5 @@
 import random
+
 from brain_games.consts import PROGRESSION_INSTRUCTION
 from brain_games.engine import run_game
 

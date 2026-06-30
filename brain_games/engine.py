@@ -22,4 +22,4 @@ def run_game(generate_fn, instruction):
                  f"Let's try again, {name}!")
            return
 
-   print(f'Congratulation, {name}!')
+   print(f'Congratulations, {name}!')

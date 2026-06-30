@@ -5,7 +5,7 @@ from brain_games.consts import AMOUNT_OF_ROUNDS
 
 def run_game(generate_fn, instruction):
    name = prompt.string('Welcome to the Brain Games!\n'
-                        'May i have your name? ')
+                        'May i know your name? ')
    print(f'Hello, {name}!\n'
          f'{instruction}')
 

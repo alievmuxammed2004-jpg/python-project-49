@@ -20,3 +20,4 @@ def run_gcd_game():
 if __name__ == "__main__":
     run_gcd_game()
 
+

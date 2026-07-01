@@ -13,4 +13,3 @@ def is_play():
 
 def run_even_game():
     run_game(is_play,EVEN_INSTRUCTION)
-

@@ -31,3 +31,6 @@
 ```bash
 uv sync
 uv run pip install .
+
+agg https://asciinema.org/a/x9mpmZXQLr7OYqqg demo.gif
+agg demo.cast demo.gif
